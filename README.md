@@ -1,15 +1,15 @@
 # Consumer Financial Protection Bureau Data Engineering Project
 
-### This is an end-to-end data engineering project that extracts data from the Consumer Financial Protection Bureau (CFPB) API, transforms it using PySpark, and loads it into DynamoDB. The data goes through the following flow:
+## This is an end-to-end data engineering project that extracts data from the Consumer Financial Protection Bureau (CFPB) API, transforms it using PySpark, and loads it into DynamoDB. The data goes through the following flow:
 
-Web_API > MongoDB (Atlas Cloud) > AWS EventBridge > Lambda > S3 > Glue > DynamoDB
+### Web_API > MongoDB (Atlas Cloud) > AWS EventBridge > Lambda > S3 > Glue > DynamoDB
 
 Requirements
 To run this project, you'll need:
 
-Python 3.7 or higher
-An AWS account with permissions to use EventBridge, Lambda, S3, Glue, and DynamoDB
-A MongoDB Atlas account and cluster
+- Python 3.7 or higher
+- An AWS account with permissions to use EventBridge, Lambda, S3, Glue, and DynamoDB
+- A MongoDB Atlas account and cluster
 An API key for the CFPB API
 Installation
 Clone this repository:
