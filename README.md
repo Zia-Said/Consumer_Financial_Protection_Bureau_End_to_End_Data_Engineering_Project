@@ -14,12 +14,12 @@ To run this project, you'll need:
  
 #### Installation
 1. Clone this repository:
-```bash
+
 git clone https://github.com/your_username/cfpb-data-engineering.git
 
 
 2. Install the required Python libraries:
-```bash
+
 pip install -r requirements.txt
 
 3. Set up your AWS credentials by following the official documentation.
@@ -28,7 +28,6 @@ pip install -r requirements.txt
 
 5. Create a .env file with the following environment variables:
 
-```bash
 CFPB_API_KEY=your_api_key
 MONGODB_URI=your_mongodb_uri
 S3_BUCKET_NAME=your_s3_bucket_name
@@ -36,7 +35,7 @@ S3_BUCKET_NAME=your_s3_bucket_name
 #### Usage
 Run the etl.py script to extract data from the CFPB API, transform it using PySpark, and load it into DynamoDB:
 
-```bash
+
 python etl.py
 
 Alternatively, you can run the extract.py, transform.py, and load.py scripts separately if you want more control over the individual steps.
