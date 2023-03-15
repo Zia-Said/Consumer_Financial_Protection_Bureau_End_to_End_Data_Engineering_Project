@@ -1,6 +1,6 @@
 # Consumer Financial Protection Bureau Data Engineering Project
 
-This is an end-to-end data engineering project that extracts data from the Consumer Financial Protection Bureau (CFPB) API, transforms it using PySpark, and loads it into DynamoDB. The data goes through the following flow:
+### This is an end-to-end data engineering project that extracts data from the Consumer Financial Protection Bureau (CFPB) API, transforms it using PySpark, and loads it into DynamoDB. The data goes through the following flow:
 
 Web_API > MongoDB (Atlas Cloud) > AWS EventBridge > Lambda > S3 > Glue > DynamoDB
 
